@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+:root{
+    --color-um: #c1ddc7;
+    --color-dois: #f5e8c6;
+    --color-tres: #bbcd77;
+    --color-quatro: #dc8051;
+    --color-cinco: #f4d279;
+    --color-seis: #000;
+    --color-sete: #fff;
+}
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(var(--color-um), var(--color-dois), var(--color-tres));   
+}
+header{
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid #cac2c2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color-tres);
+}
+.nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    border: none;
+    margin: 0 10px;
+    color: var(--color-sete);
+    cursor: pointer;
+    background-color: var(--color-cinco);
+    border: 1px solid var(--color-seis);
+    padding: 5px 22px;
+    border-radius: 8px;
+    transition: tranform .5s;
+    transition: .5s;
+}
+a:hover{
+    color: var(--color-seis);
+    transform: scale(1.1);
+    background-color: var(--color-quatro);
+    color: var(--color-seis);
+}
+main{
+    margin: 0 auto;
+}
+
+.container-cta{
+    background-image: url(https://www.undb.edu.br/hubfs/administra%C3%A7%C3%A3o%20undb-1.jpg);
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cta{
+    height: 200px;
+    background-color: var(--color-tres);
+    border: 1px solid var(--color-seis);
+    border-radius: 10px; 
+    text-align: center;
+    margin: 0 200px;
+    box-shadow: 5px 5px 15px 5px var(--color-seis);
+    margin-top: 30%;
+    height: 100px;
+}
+.cta p{
+    margin: 0 20px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 16px;
+}
+span{
+    color: rgb(35, 135, 35);
+}
+.btn{
+    color: var(--color-sete);
+    cursor: pointer;
+    background-color: var(--color-cinco);
+    border: 1px solid var(--color-seis);
+    padding: 10px 40px;
+    border-radius: 8px;
+    transition: .5s;
+    color: var(--color-seis);
+}
+.btn:hover{
+    background-color: var(--color-sete);
+}
+
+.foto{
+    margin-top: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+    margin-bottom: 15px ;
+}
+
+.container-atc{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    /* background-color: red; */
+}
+
+.atc{
+    height: 200px;
+    background-color: var(--color-tres);
+    border: 1px solid var(--color-seis);
+    border-radius: 10px; 
+    text-align: center;
+    margin: 0 200px;
+    box-shadow: 5px 5px 15px 5px var(--color-seis);
+    height: 200px;
+    margin-bottom: 15%;
+}
+
+.atc span{
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--color-quatro);
+    padding: 40px 0;
+    margin: 2px 0 auto;
+}
+footer div{
+    display: flex;
+    width: 1100px;
+    margin: 10px auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer .img-footer{
+    width: 40px;
+    margin: 0 10px;
+}
+footer a{
+    background-color: var(--color-tres);
+    color: var(--color-seis);
+    padding: 10px 28px;
+}
+footer a:hover{
+    background-color: var(--color-cinco);
+}
